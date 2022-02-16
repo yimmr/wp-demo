@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: test\n"
+"Language: zh-CN\n"
+
+#. Plugin Name of the plugin
+#: 
+msgid "演示数据管理试用版"
+msgstr "Demo Data Management (BETA)"
+
+#. Description of the plugin
+#: 
+msgid "插件用于添加/删除演示数据，用不上时应该删除插件"
+msgstr "The plugin is used to add/delete demo data, the plugin should be deleted when not needed"
+
+#: admin-page.view.php:12
+#: index.php:26
+msgid "管理演示数据"
+msgstr "Manage demo data"
+
+#: admin-page.view.php:18
+msgid "状态"
+msgstr "state"
+
+#: admin-page.view.php:19
+msgid "类型"
+msgstr "type"
+
+#: admin-page.view.php:20
+msgid "动作"
+msgstr "action"
+
+#: admin-page.view.php:43
+#: admin-page.view.php:55
+msgid "填充"
+msgstr "Add"
+
+#: admin-page.view.php:45
+#: admin-page.view.php:59
+msgid "删除"
+msgstr "Delete"
+
+#: admin-page.view.php:55
+#: admin-page.view.php:59
+msgid "全部"
+msgstr "All"
+
+#: index.php:27
+msgid "演示数据"
+msgstr "Demo Data"
+
+#: src/Manager.php:63
+msgid "任务要求此目录拥有可写的权限："
+msgstr "The task requires that this directory has writable permissions:"
+
+#: src/Manager.php:178
+msgid "已清空数据，但无法移除文件："
+msgstr "Data was wiped, but files could not be removed:"
+
+#: src/Manager.php:181
+msgid "遇到错误，未能彻底清除数据"
+msgstr "An error was encountered and the data could not be completely erased"
+
+#: src/Manager.php:374
+msgid "失败："
+msgstr "Fail:"
+
+#: 
+msgid "页面菜单"
+msgstr "page menu"
+

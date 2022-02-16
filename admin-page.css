@@ -1,0 +1,132 @@
+h1 > span {
+  background-color: lightsteelblue;
+  color: #fff;
+  vertical-align: text-top;
+  line-height: 1;
+  font-size: 12px;
+  border-radius: 0.1875rem;
+  margin-left: 0.375rem;
+  padding: 0 2px;
+  font-weight: 300;
+}
+
+.imd-actions {
+  margin-top: 1rem;
+  border-collapse: collapse;
+  line-height: 1;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 5px #f0f0f0;
+}
+
+.imd-actions th + th,
+.imd-actions td + td {
+  border-left: 1px solid #eee;
+}
+
+.imd-actions th,
+.imd-actions td {
+  border-bottom: 1px solid #eee;
+}
+
+.imd-actions th,
+.imd-actions td {
+  padding: 0.75rem 1rem;
+}
+
+.imd-actions tr td:nth-child(1) {
+  max-width: 50px;
+}
+
+.imd-actions tr td:nth-child(2) {
+  min-width: 200px;
+  font-weight: bolder;
+}
+
+.imd-actions td.status svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+  color: #888;
+}
+
+.imd-actions td.status--ok svg {
+  color: #06d689;
+}
+
+.imd-buttons {
+  margin-top: 1rem;
+}
+
+.imd-button + .imd-button {
+  margin-left: 0.5rem;
+}
+
+.imd-button {
+  color: #333;
+  border: 1px solid;
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  padding: 0 0.875rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.imd-button:hover,
+.imd-button:active,
+.imd-button:focus {
+  outline: 0;
+  box-shadow: none;
+  background-color: #faf9f7;
+}
+
+.imd-button:active {
+  opacity: 0.5;
+}
+
+.imd-button--sm {
+  height: auto;
+  line-height: 1;
+  border-radius: 0.1875rem;
+  padding: 0.125rem 0.375rem;
+}
+
+.imd-button--post,
+.imd-button--post:hover,
+.imd-button--post:active,
+.imd-inline--post:focus {
+  color: lightseagreen;
+}
+
+.imd-button--delete,
+.imd-button--delete:hover,
+.imd-button--delete:active,
+.imd-button--delete:focus {
+  color: lightcoral;
+}
+
+.imd-notice {
+  position: relative;
+  background-color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-left: 3px solid;
+  margin: 1em 0;
+}
+
+.imd-notice pre {
+  font-weight: bolder;
+  line-height: 1.75;
+  margin: 0;
+}
+
+.imd-notice > a {
+  text-decoration: none;
+}
+
+.imd-notice-error {
+  border-color: #dc3545;
+}

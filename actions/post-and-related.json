@@ -1,0 +1,68 @@
+{
+    "data": {
+        "title": "标题",
+        "content": [
+            "第一个段落",
+            "第二个段落",
+            "第三个段落",
+            "第四个段落",
+            "第五个段落"
+        ],
+        "type": "post",
+        "_thumbnail_id": "cover.jpg",
+        "tax_input": {
+            "category": [
+                "分类一",
+                "分类二",
+                "分类三",
+                "分类四",
+                "分类五",
+                "分类六",
+                "分类七",
+                "分类八",
+                "分类九",
+                "分类十"
+            ],
+            "post_popular": [
+                "热度一",
+                {
+                    "name": "热度二",
+                    "child": [
+                        {
+                            "name": "子热度一",
+                            "child": [
+                                "子热度一一"
+                            ]
+                        },
+                        "子热度一"
+                    ]
+                }
+            ]
+        },
+        "meta_input": {
+            "_views": 10,
+            "_link": "http://example.com"
+        }
+    },
+    "rules": {
+        "title": "affix",
+        "3.title": {
+            "method": "affix",
+            "params": [
+                "前缀::",
+                "::后缀"
+            ]
+        },
+        "content": "contentRand",
+        "tax_input.category": {
+            "method": "termsRand",
+            "params": 3
+        }
+    },
+    "data_files": [
+        "comment"
+    ],
+    "steps": [
+        "array_map([$modelSave,'post'], $Multiple::create($data, 5, $rules));"
+    ]
+}
